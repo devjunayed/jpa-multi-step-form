@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../components/Home";
 import SignUp from "../components/SignUp";
+import UpdateImage from "../components/UpdateImage";
 
 export const router = createBrowserRouter([
     {
@@ -13,7 +14,7 @@ export const router = createBrowserRouter([
     },
     {
       path: "/signup/update-img-location",
-      element: <div>Upload image</div>,
+      element: <UpdateImage />,
     },
     {
       path: "/signup/choose-options",
